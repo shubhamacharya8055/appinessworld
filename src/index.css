@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Open Sans', sans-serif; 
+}
+
+.home {
+  background: linear-gradient(302.56deg,#fff 9.29%,rgba(255,253,253,0) 38.3%),linear-gradient(59deg,#d2f6e3 2.98%,rgba(209,246,227,0) 33.52%),linear-gradient(120.35deg,#f1e0fa 23.52%,rgba(241,226,248,0) 39.05%),linear-gradient(237.1deg,#c7e2f6 17.78%,rgba(255,255,255,0) 92.11%);
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.clients {
+  background: linear-gradient(180.39deg,rgba(255,255,255,0) .34%,rgba(255,255,255,.4012) 25.49%,rgba(255,255,255,.465328) 67.39%,#fff 99.66%);
+}
+
+.bgDots {
+    background-repeat: repeat;
+    background-color: #f8fcff;
+    height: 450px;
+    width: 270px;
+    position: relative;
+    background-image: linear-gradient(to bottom, transparent, transparent 20%, #f8fcff 20%, #f8fcff 90%, transparent 90%), linear-gradient(to right, transparent, transparent 20%, #f8fcff 20%, #f8fcff 90%, transparent 90%), linear-gradient(to right, #b1c9e43b, #b1c9e43b 20%, #f8fcff 20%, #f8fcff 90%, #eee 90%);
+    background-size: 10px 10px;
+    position: absolute;
+    z-index: -1;
+    left: -110px;
+}
