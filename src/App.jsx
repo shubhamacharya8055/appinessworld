@@ -9,7 +9,7 @@ import Hero from "./ui/Hero";
 export default function App() {
 
   return (
-    <div className="relative min-h-screen w-full">
+    <div className="relative h-full w-full">
     <SideNav />
     <div className="home h-[1000px] min-w-full absolute z-[9999] top-0 left-0">
       <TextCarousel />
@@ -17,6 +17,9 @@ export default function App() {
       <HeroDescription />
       <Clients/>
       <Smile />
+    </div>
+    <div className="h-[800px] relative top-[400px] border border-black">
+
     </div>
     </div>
   )
